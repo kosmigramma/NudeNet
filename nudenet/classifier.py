@@ -22,7 +22,7 @@ class Classifier:
         """
         model = Classifier()
         """
-        url = "https://github.com/notAI-tech/NudeNet/releases/download/v0/classifier_model.onnx"
+        url = "https://github.com/kosmigramma/NudeNet/releases/download/untagged-aa6b8c266a6ad8714ec2/classifier_model.onnx"
         home = os.path.expanduser("~")
         model_folder = os.path.join(home, ".NudeNet/")
         if not os.path.exists(model_folder):
